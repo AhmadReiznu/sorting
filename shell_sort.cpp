@@ -37,6 +37,7 @@ int main()
 	int jumlah_data, index;
 	cout<<"\nMasukkan Jumlah Data: ";
 	cin>>jumlah_data;
+	cout << endl;
  
 	int data[jumlah_data];
 	for(index = 0; index < jumlah_data; index++)
@@ -50,7 +51,9 @@ int main()
 	// Menampilkan data yang telah di urutkan
 	cout<<"\nData Yang Telah Di Urutkan ";
 	for (index = 0; index < jumlah_data; index++)
-		cout << " " << data[index];
+	{
+		cout << " " << data[index];	
+	}
  
 	return 0;
 }
