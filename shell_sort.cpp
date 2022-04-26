@@ -54,6 +54,8 @@ int main()
 	{
 		cout << " " << data[index];	
 	}
+	
+	cout << endl << "Developed By Reiznu Ahmad Tjandrida";
  
 	return 0;
 }
